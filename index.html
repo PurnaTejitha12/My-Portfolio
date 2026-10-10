@@ -662,6 +662,76 @@ margin-bottom:10px;
 
 <!-- ================= PROJECTS ================= -->
 
+/* ================= VIEW PROJECT BUTTON ================= */
+
+.project-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 20px;
+    padding: 13px 30px;
+
+    background: linear-gradient(135deg, #00d4ff, #8b5cf6);
+    color: #ffffff;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+    text-decoration: none;
+    border: 1px solid rgba(0, 242, 255, 0.5);
+    border-radius: 50px;
+
+    box-shadow: 0 4px 18px rgba(0, 212, 255, 0.2);
+
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    transition: all 0.35s ease;
+}
+
+/* Hover effect */
+
+.project-btn:hover {
+    background: linear-gradient(135deg, #8b5cf6, #00d4ff);
+    color: #ffffff;
+
+    transform: translateY(-5px) scale(1.04);
+
+    box-shadow:
+        0 8px 25px rgba(0, 212, 255, 0.4),
+        0 0 20px rgba(139, 92, 246, 0.3);
+
+    border-color: #00f2ff;
+}
+
+/* Click effect */
+
+.project-btn:active {
+    transform: translateY(-1px) scale(0.98);
+}
+
+/* Keyboard accessibility */
+
+.project-btn:focus-visible {
+    outline: 2px solid #00f2ff;
+    outline-offset: 5px;
+}
+
+/* Mobile-friendly button */
+
+@media (max-width: 600px) {
+    .project-btn {
+        padding: 12px 26px;
+        font-size: 14px;
+    }
+}
+
+
 <section id="projects">
 
     <h2 class="section-title">Featured Projects</h2>
@@ -757,7 +827,13 @@ margin-bottom:10px;
                 <span>Machine Learning</span>
                 <span>FastAPI</span>
             </div>
-            <a href="#" class="project-btn">View Project</a>
+            
+    <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+       class="project-btn"
+       target="_blank"
+       rel="noopener noreferrer">
+        View Project ↗
+    </a>
         </div>
 
         <!-- 6. Customer Churn Prediction -->
@@ -778,7 +854,13 @@ margin-bottom:10px;
                 <span>Machine Learning</span>
                 <span>Flask</span>
             </div>
-            <a href="#" class="project-btn">View Project</a>
+            
+    <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+       class="project-btn"
+       target="_blank"
+       rel="noopener noreferrer">
+        View Project ↗
+    </a>
         </div>
 
         <!-- 7. Smart Expense Tracker -->
@@ -801,7 +883,13 @@ margin-bottom:10px;
                 <span>JavaScript</span>
                 <span>JSON</span>
             </div>
-            <a href="#" class="project-btn">View Project</a>
+            
+    <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+       class="project-btn"
+       target="_blank"
+       rel="noopener noreferrer">
+        View Project ↗
+    </a>
         </div>
 
         <!-- 8. FinWise Credit Risk Scoring -->
@@ -821,7 +909,13 @@ margin-bottom:10px;
                 <span>SHAP</span>
                 <span>Explainable AI</span>
             </div>
-            <a href="#" class="project-btn">View Project</a>
+            
+    <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+       class="project-btn"
+       target="_blank"
+       rel="noopener noreferrer">
+        View Project ↗
+    </a>
         </div>
 
         <!-- 9. Iris Flower Prediction API -->
@@ -842,7 +936,13 @@ margin-bottom:10px;
                 <span>Docker</span>
                 <span>GitHub Actions</span>
             </div>
-            <a href="#" class="project-btn">View Project</a>
+            
+    <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+       class="project-btn"
+       target="_blank"
+       rel="noopener noreferrer">
+        View Project ↗
+    </a>
         </div>
 
     </div>
