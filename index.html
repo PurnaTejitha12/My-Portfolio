@@ -328,11 +328,11 @@ Contact Me
 
 </div>
 
+
 <div class="hero-image">
-
-<img src="https://drive.google.com/file/d/105I-DjAS2qdytDcUtdN0qgksOOrwMilC/view?usp=sharing">
-
+    <img src="./profile.jpg" alt="Sanisetty PurnaTejitha">
 </div>
+
 
 </section>
 
@@ -400,7 +400,7 @@ I enjoy solving real-world problems through AI, exploring new technologies, and 
 <div class="stats-grid">
 
 <div class="glass stat-card">
-<h1 class="counter" data-target="4">0</h1>
+<h1 class="counter" data-target="9">0</h1>
 <p>AI Projects</p>
 </div>
 
@@ -659,101 +659,196 @@ margin-bottom:10px;
 </style>
 
 <!-- ========= PART 3 STARTS BELOW THIS LINE ========= -->
- <!-- ================= PROJECTS ================= -->
+
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects">
 
-<h2 class="section-title">Featured Projects</h2>
+    <h2 class="section-title">Featured Projects</h2>
 
-<div class="projects-grid">
+    <div class="projects-grid">
 
-<div class="glass project-card">
-<div class="project-icon">🩺</div>
+        <!-- 1. Diabetic Retinopathy Detection -->
+        <div class="glass project-card">
+            <div class="project-icon">🩺</div>
+            <h3>AI-Based Diabetic Retinopathy Detection</h3>
+            <p>
+                Developed an AI-powered web application using CNN and
+                EfficientNet to detect diabetic retinopathy stages from
+                retinal fundus images with explainable predictions.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>CNN</span>
+                <span>EfficientNet</span>
+                <span>Flask</span>
+            </div>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
 
-<h3>AI-Based Diabetic Retinopathy Detection</h3>
+        <!-- 2. Customer Complaint Analyzer -->
+        <div class="glass project-card">
+            <div class="project-icon">💬</div>
+            <h3>Automated Customer Complaint Analyzer</h3>
+            <p>
+                Designed an NLP pipeline to classify customer complaints
+                using Logistic Regression and Random Forest, with an
+                interactive dashboard for visualization.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>NLP</span>
+                <span>Scikit-learn</span>
+                <span>Pandas</span>
+            </div>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
 
-<p>
-Developed an AI-powered web application using CNN and EfficientNet to detect diabetic retinopathy stages from retinal fundus images with explainable predictions.
-</p>
+        <!-- 3. Email Phishing Detection -->
+        <div class="glass project-card">
+            <div class="project-icon">📧</div>
+            <h3>Email Phishing Detection</h3>
+            <p>
+                Built a lightweight phishing detection web application
+                using rule-based techniques to identify suspicious
+                email subject lines.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Flask</span>
+            </div>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
 
-<div class="tech-stack">
-<span>Python</span>
-<span>TensorFlow</span>
-<span>CNN</span>
-<span>EfficientNet</span>
-<span>Flask</span>
-</div>
+        <!-- 4. Music Generator -->
+        <div class="glass project-card">
+            <div class="project-icon">🎵</div>
+            <h3>Music Generator Using LSTM</h3>
+            <p>
+                Implemented a deep learning model using Long Short-Term
+                Memory networks to generate musical note sequences.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>LSTM</span>
+                <span>Keras</span>
+                <span>TensorFlow</span>
+            </div>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
 
-<a href="#" class="project-btn">View Project</a>
+        <!-- 5. ShopNest AI Customer Support -->
+        <div class="glass project-card">
+            <div class="project-icon">🛍️</div>
+            <h3>ShopNest E-Commerce AI Customer Support</h3>
+            <p>
+                Developed an NLP-based intent classification system and
+                FAQ chatbot to handle customer queries about orders,
+                deliveries, returns, refunds, products, and complaints.
+                A FastAPI REST API classifies customer messages in real time.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>NLP</span>
+                <span>Intent Classification</span>
+                <span>Machine Learning</span>
+                <span>FastAPI</span>
+            </div>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
 
-</div>
+        <!-- 6. Customer Churn Prediction -->
+        <div class="glass project-card">
+            <div class="project-icon">📊</div>
+            <h3>Cynaris – Customer Churn Prediction System</h3>
+            <p>
+                Developed a machine learning solution to predict whether
+                customers are likely to leave a service using subscription,
+                service usage, and account data. Integrated the trained
+                model into a Flask application that provides churn
+                predictions and churn probabilities.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>Scikit-learn</span>
+                <span>Machine Learning</span>
+                <span>Flask</span>
+            </div>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
 
-<div class="glass project-card">
+        <!-- 7. Smart Expense Tracker -->
+        <div class="glass project-card">
+            <div class="project-icon">💰</div>
+            <h3>Smart Expense Tracker</h3>
+            <p>
+                Built a full-stack personal expense management application
+                that supports adding, viewing, editing, and deleting
+                expenses. Includes category filtering, total spending
+                calculations, spending breakdowns, and a responsive dashboard.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>Pydantic</span>
+                <span>Uvicorn</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>JSON</span>
+            </div>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
 
-<div class="project-icon">💬</div>
+        <!-- 8. FinWise Credit Risk Scoring -->
+        <div class="glass project-card">
+            <div class="project-icon">🏦</div>
+            <h3>FinWise Lending – Credit Risk Scoring System</h3>
+            <p>
+                Built an explainable AI/ML credit risk scoring system
+                using XGBoost and SHAP. Predicts loan risk, assigns
+                applicants to Low, Medium, or High risk categories,
+                and explains individual predictions using SHAP values.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>XGBoost</span>
+                <span>SHAP</span>
+                <span>Explainable AI</span>
+            </div>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
 
-<h3>Automated Customer Complaint Analyzer</h3>
+        <!-- 9. Iris Flower Prediction API -->
+        <div class="glass project-card">
+            <div class="project-icon">🌸</div>
+            <h3>Iris Flower Prediction API</h3>
+            <p>
+                Developed a machine learning application that predicts
+                Iris flower species from sepal and petal measurements.
+                Exposed the model through a FastAPI REST API, packaged
+                it with Docker, and automated linting, testing, image
+                building, and publishing using GitHub Actions.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>FastAPI</span>
+                <span>Docker</span>
+                <span>GitHub Actions</span>
+            </div>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
 
-<p>
-Designed an NLP pipeline to classify customer complaints using Logistic Regression and Random Forest with an interactive dashboard for visualization.
-</p>
-
-<div class="tech-stack">
-<span>Python</span>
-<span>NLP</span>
-<span>Scikit-learn</span>
-<span>Pandas</span>
-</div>
-
-<a href="#" class="project-btn">View Project</a>
-
-</div>
-
-<div class="glass project-card">
-
-<div class="project-icon">📧</div>
-
-<h3>Email Phishing Detection</h3>
-
-<p>
-Built a lightweight phishing detection web application using rule-based techniques to identify suspicious email subject lines.
-</p>
-
-<div class="tech-stack">
-<span>Python</span>
-<span>HTML</span>
-<span>CSS</span>
-<span>Flask</span>
-</div>
-
-<a href="#" class="project-btn">View Project</a>
-
-</div>
-
-<div class="glass project-card">
-
-<div class="project-icon">🎵</div>
-
-<h3>Music Generator Using LSTM</h3>
-
-<p>
-Implemented a deep learning model using Long Short-Term Memory (LSTM) networks to generate musical note sequences.
-</p>
-
-<div class="tech-stack">
-<span>Python</span>
-<span>LSTM</span>
-<span>Keras</span>
-<span>TensorFlow</span>
-</div>
-
-<a href="#" class="project-btn">View Project</a>
-
-</div>
-
-</div>
+    </div>
 
 </section>
+
 
 <!-- ================= INTERNSHIP ================= -->
 
@@ -796,7 +891,7 @@ Implemented a deep learning model using Long Short-Term Memory (LSTM) networks t
             <h4>AI/ML Intern</h4>
 
             <p class="internship-duration">
-                <strong>Duration:</strong> 2026
+                <strong>Duration:</strong> July 2026- Oct 2026
             </p>
 
             <h3>Project: Customer Churn Prediction System</h3>
